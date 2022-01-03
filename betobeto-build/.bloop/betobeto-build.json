@@ -1,0 +1,150 @@
+{
+    "version": "1.4.0",
+    "project": {
+        "name": "betobeto-build",
+        "directory": "/Users/bpusey/src/pet-projects/betobeto/betobeto-build",
+        "workspaceDir": "/Users/bpusey/src/pet-projects/betobeto/betobeto-build",
+        "sources": [
+            "/Users/bpusey/src/pet-projects/betobeto/betobeto-build/src/main/scala",
+            "/Users/bpusey/src/pet-projects/betobeto/betobeto-build/src/main/scala-2.12",
+            "/Users/bpusey/src/pet-projects/betobeto/betobeto-build/src/main/scala-2",
+            "/Users/bpusey/src/pet-projects/betobeto/betobeto-build/src/main/java",
+            "/Users/bpusey/src/pet-projects/betobeto/betobeto-build/target/scala-2.12/src_managed/main"
+        ],
+        "dependencies": [
+            "root",
+            "core"
+        ],
+        "classpath": [
+            "/Users/bpusey/.sbt/boot/scala-2.12.12/lib/scala-library.jar"
+        ],
+        "out": "/Users/bpusey/src/pet-projects/betobeto/betobeto-build/.bloop/betobeto-build",
+        "classesDir": "/Users/bpusey/src/pet-projects/betobeto/betobeto-build/.bloop/betobeto-build/scala-2.12/classes",
+        "resources": [
+            "/Users/bpusey/src/pet-projects/betobeto/betobeto-build/src/main/resources",
+            "/Users/bpusey/src/pet-projects/betobeto/betobeto-build/target/scala-2.12/resource_managed/main"
+        ],
+        "scala": {
+            "organization": "org.scala-lang",
+            "name": "scala-compiler",
+            "version": "2.12.12",
+            "options": [
+                
+            ],
+            "jars": [
+                "/Users/bpusey/.sbt/boot/scala-2.12.12/lib/scala-library.jar",
+                "/Users/bpusey/.sbt/boot/scala-2.12.12/lib/scala-compiler.jar",
+                "/Users/bpusey/.sbt/boot/scala-2.12.12/lib/jline.jar",
+                "/Users/bpusey/.sbt/boot/scala-2.12.12/lib/scala-reflect.jar",
+                "/Users/bpusey/.sbt/boot/scala-2.12.12/lib/jansi.jar",
+                "/Users/bpusey/.sbt/boot/scala-2.12.12/lib/scala-xml_2.12.jar"
+            ],
+            "analysis": "/Users/bpusey/src/pet-projects/betobeto/betobeto-build/target/streams/compile/bloopAnalysisOut/_global/streams/inc_compile_2.12.zip",
+            "setup": {
+                "order": "mixed",
+                "addLibraryToBootClasspath": true,
+                "addCompilerToClasspath": false,
+                "addExtraJarsToClasspath": false,
+                "manageBootClasspath": true,
+                "filterLibraryFromClasspath": true
+            }
+        },
+        "java": {
+            "options": [
+                
+            ]
+        },
+        "test": {
+            "frameworks": [
+                {
+                    "names": [
+                        "org.scalacheck.ScalaCheckFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.specs2.runner.Specs2Framework",
+                        "org.specs2.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.specs.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.scalatest.tools.Framework",
+                        "org.scalatest.tools.ScalaTestFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "com.novocode.junit.JUnitFramework"
+                    ]
+                }
+            ],
+            "options": {
+                "excludes": [
+                    
+                ],
+                "arguments": [
+                    
+                ]
+            }
+        },
+        "platform": {
+            "name": "jvm",
+            "config": {
+                "home": "/Library/Java/JavaVirtualMachines/adoptopenjdk-11.jdk/Contents/Home",
+                "options": [
+                    "-Duser.dir=/Users/bpusey/src/pet-projects/betobeto/betobeto-build"
+                ]
+            },
+            "mainClass": [
+                
+            ]
+        },
+        "resolution": {
+            "modules": [
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-library",
+                    "version": "2.12.12",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scala-library",
+                            "path": "/Users/bpusey/.sbt/boot/scala-2.12.12/lib/scala-library.jar"
+                        },
+                        {
+                            "name": "scala-library",
+                            "classifier": "sources",
+                            "path": "/Users/bpusey/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.12/scala-library-2.12.12-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-library",
+                    "version": "2.12.12",
+                    "configurations": "optional",
+                    "artifacts": [
+                        {
+                            "name": "scala-library",
+                            "path": "/Users/bpusey/.sbt/boot/scala-2.12.12/lib/scala-library.jar"
+                        },
+                        {
+                            "name": "scala-library",
+                            "classifier": "sources",
+                            "path": "/Users/bpusey/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.12/scala-library-2.12.12-sources.jar"
+                        }
+                    ]
+                }
+            ]
+        },
+        "tags": [
+            "library"
+        ]
+    }
+}

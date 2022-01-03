@@ -1,0 +1,288 @@
+{
+    "version": "1.4.0",
+    "project": {
+        "name": "root",
+        "directory": "/Users/bpusey/src/pet-projects/betobeto/betobeto-build/root",
+        "workspaceDir": "/Users/bpusey/src/pet-projects/betobeto/betobeto-build",
+        "sources": [
+            "/Users/bpusey/src/pet-projects/betobeto/betobeto-build/root/src/main/scala",
+            "/Users/bpusey/src/pet-projects/betobeto/betobeto-build/root/src/main/scala-2.12",
+            "/Users/bpusey/src/pet-projects/betobeto/betobeto-build/root/src/main/scala-2",
+            "/Users/bpusey/src/pet-projects/betobeto/betobeto-build/root/src/main/java",
+            "/Users/bpusey/src/pet-projects/betobeto/betobeto-build/root/target/scala-2.12/src_managed/main"
+        ],
+        "dependencies": [
+            "core"
+        ],
+        "classpath": [
+            "/Users/bpusey/src/pet-projects/betobeto/betobeto-build/.bloop/core/scala-2.12/classes",
+            "/Users/bpusey/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.10/scala-library-2.12.10.jar",
+            "/Users/bpusey/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-core_2.12/2.1.1/cats-core_2.12-2.1.1.jar",
+            "/Users/bpusey/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/beachape/enumeratum_2.12/1.5.15/enumeratum_2.12-1.5.15.jar",
+            "/Users/bpusey/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/beachape/enumeratum-cats_2.12/1.5.16/enumeratum-cats_2.12-1.5.16.jar",
+            "/Users/bpusey/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-macros_2.12/2.1.1/cats-macros_2.12-2.1.1.jar",
+            "/Users/bpusey/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-kernel_2.12/2.1.1/cats-kernel_2.12-2.1.1.jar",
+            "/Users/bpusey/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/beachape/enumeratum-macros_2.12/1.5.10/enumeratum-macros_2.12-1.5.10.jar",
+            "/Users/bpusey/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.10/scala-reflect-2.12.10.jar"
+        ],
+        "out": "/Users/bpusey/src/pet-projects/betobeto/betobeto-build/.bloop/root",
+        "classesDir": "/Users/bpusey/src/pet-projects/betobeto/betobeto-build/.bloop/root/scala-2.12/classes",
+        "resources": [
+            "/Users/bpusey/src/pet-projects/betobeto/betobeto-build/root/src/main/resources",
+            "/Users/bpusey/src/pet-projects/betobeto/betobeto-build/root/target/scala-2.12/resource_managed/main"
+        ],
+        "scala": {
+            "organization": "org.scala-lang",
+            "name": "scala-compiler",
+            "version": "2.12.10",
+            "options": [
+                
+            ],
+            "jars": [
+                "/Users/bpusey/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.10/scala-compiler-2.12.10.jar",
+                "/Users/bpusey/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.10/scala-library-2.12.10.jar",
+                "/Users/bpusey/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.10/scala-reflect-2.12.10.jar",
+                "/Users/bpusey/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.0.6/scala-xml_2.12-1.0.6.jar",
+                "/Users/bpusey/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/jline/jline/2.14.6/jline-2.14.6.jar",
+                "/Users/bpusey/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/fusesource/jansi/jansi/1.12/jansi-1.12.jar"
+            ],
+            "analysis": "/Users/bpusey/src/pet-projects/betobeto/betobeto-build/root/target/streams/compile/bloopAnalysisOut/_global/streams/inc_compile_2.12.zip",
+            "setup": {
+                "order": "mixed",
+                "addLibraryToBootClasspath": true,
+                "addCompilerToClasspath": false,
+                "addExtraJarsToClasspath": false,
+                "manageBootClasspath": true,
+                "filterLibraryFromClasspath": true
+            }
+        },
+        "java": {
+            "options": [
+                
+            ]
+        },
+        "test": {
+            "frameworks": [
+                {
+                    "names": [
+                        "org.scalacheck.ScalaCheckFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.specs2.runner.Specs2Framework",
+                        "org.specs2.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.specs.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.scalatest.tools.Framework",
+                        "org.scalatest.tools.ScalaTestFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "com.novocode.junit.JUnitFramework"
+                    ]
+                }
+            ],
+            "options": {
+                "excludes": [
+                    
+                ],
+                "arguments": [
+                    
+                ]
+            }
+        },
+        "platform": {
+            "name": "jvm",
+            "config": {
+                "home": "/Library/Java/JavaVirtualMachines/adoptopenjdk-11.jdk/Contents/Home",
+                "options": [
+                    "-Duser.dir=/Users/bpusey/src/pet-projects/betobeto/betobeto-build"
+                ]
+            },
+            "mainClass": [
+                
+            ]
+        },
+        "resolution": {
+            "modules": [
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-library",
+                    "version": "2.12.10",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scala-library",
+                            "checksum": {
+                                "type": "sha1",
+                                "digest": "3509860bc2e5b3da001ed45aca94ffbe5694dbda"
+                            },
+                            "path": "/Users/bpusey/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.10/scala-library-2.12.10.jar"
+                        },
+                        {
+                            "name": "scala-library",
+                            "classifier": "sources",
+                            "path": "/Users/bpusey/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.10/scala-library-2.12.10-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.typelevel",
+                    "name": "cats-core_2.12",
+                    "version": "2.1.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "cats-core_2.12",
+                            "path": "/Users/bpusey/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-core_2.12/2.1.1/cats-core_2.12-2.1.1.jar"
+                        },
+                        {
+                            "name": "cats-core_2.12",
+                            "classifier": "sources",
+                            "path": "/Users/bpusey/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-core_2.12/2.1.1/cats-core_2.12-2.1.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.beachape",
+                    "name": "enumeratum_2.12",
+                    "version": "1.5.15",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "enumeratum_2.12",
+                            "path": "/Users/bpusey/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/beachape/enumeratum_2.12/1.5.15/enumeratum_2.12-1.5.15.jar"
+                        },
+                        {
+                            "name": "enumeratum_2.12",
+                            "classifier": "sources",
+                            "path": "/Users/bpusey/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/beachape/enumeratum_2.12/1.5.15/enumeratum_2.12-1.5.15-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.beachape",
+                    "name": "enumeratum-cats_2.12",
+                    "version": "1.5.16",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "enumeratum-cats_2.12",
+                            "path": "/Users/bpusey/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/beachape/enumeratum-cats_2.12/1.5.16/enumeratum-cats_2.12-1.5.16.jar"
+                        },
+                        {
+                            "name": "enumeratum-cats_2.12",
+                            "classifier": "sources",
+                            "path": "/Users/bpusey/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/beachape/enumeratum-cats_2.12/1.5.16/enumeratum-cats_2.12-1.5.16-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.typelevel",
+                    "name": "cats-macros_2.12",
+                    "version": "2.1.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "cats-macros_2.12",
+                            "path": "/Users/bpusey/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-macros_2.12/2.1.1/cats-macros_2.12-2.1.1.jar"
+                        },
+                        {
+                            "name": "cats-macros_2.12",
+                            "classifier": "sources",
+                            "path": "/Users/bpusey/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-macros_2.12/2.1.1/cats-macros_2.12-2.1.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.typelevel",
+                    "name": "cats-kernel_2.12",
+                    "version": "2.1.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "cats-kernel_2.12",
+                            "path": "/Users/bpusey/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-kernel_2.12/2.1.1/cats-kernel_2.12-2.1.1.jar"
+                        },
+                        {
+                            "name": "cats-kernel_2.12",
+                            "classifier": "sources",
+                            "path": "/Users/bpusey/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-kernel_2.12/2.1.1/cats-kernel_2.12-2.1.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.beachape",
+                    "name": "enumeratum-macros_2.12",
+                    "version": "1.5.10",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "enumeratum-macros_2.12",
+                            "path": "/Users/bpusey/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/beachape/enumeratum-macros_2.12/1.5.10/enumeratum-macros_2.12-1.5.10.jar"
+                        },
+                        {
+                            "name": "enumeratum-macros_2.12",
+                            "classifier": "sources",
+                            "path": "/Users/bpusey/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/beachape/enumeratum-macros_2.12/1.5.10/enumeratum-macros_2.12-1.5.10-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-reflect",
+                    "version": "2.12.10",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scala-reflect",
+                            "checksum": {
+                                "type": "sha1",
+                                "digest": "14cb7beb516cd8e07716133668c427792122c926"
+                            },
+                            "path": "/Users/bpusey/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.10/scala-reflect-2.12.10.jar"
+                        },
+                        {
+                            "name": "scala-reflect",
+                            "classifier": "sources",
+                            "path": "/Users/bpusey/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.10/scala-reflect-2.12.10-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-library",
+                    "version": "2.12.10",
+                    "configurations": "optional",
+                    "artifacts": [
+                        {
+                            "name": "scala-library",
+                            "checksum": {
+                                "type": "sha1",
+                                "digest": "3509860bc2e5b3da001ed45aca94ffbe5694dbda"
+                            },
+                            "path": "/Users/bpusey/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.10/scala-library-2.12.10.jar"
+                        },
+                        {
+                            "name": "scala-library",
+                            "classifier": "sources",
+                            "path": "/Users/bpusey/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.10/scala-library-2.12.10-sources.jar"
+                        }
+                    ]
+                }
+            ]
+        },
+        "tags": [
+            "library"
+        ]
+    }
+}
