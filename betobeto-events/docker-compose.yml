@@ -1,0 +1,9 @@
+version: "3.0"
+services:
+  hbase-phoenix:
+    image: boostport/hbase-phoenix-all-in-one:2.0-5.0
+    container_name: hbase-phoenix
+    ports:
+      - "8765:8765"
+volumes:
+  data:
